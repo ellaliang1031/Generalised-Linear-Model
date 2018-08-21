@@ -1,0 +1,124 @@
+```{r}
+library(GGally)
+gf<-read.csv('Ass4GF_data.csv',header = TRUE)
+head(gf)
+dim(gf)
+gf<-na.omit(gf)
+dim(gf)
+
+```
+```{r}
+gf$cow<-factor(gf$cow)
+summary(gf)
+ggpairs(gf[,4:9])
+```
+```{r}
+PlotTC <- ggplot(gf, aes(x=TotDM, y=CO2)) + geom_point() 
+PlotTC
+coplot(CO2 ~TotDM|cow, data=gf, panel = panel.smooth)
+PlotTC <- ggplot(gf, aes(x=Pasture, y=CO2)) + geom_point() 
+PlotTC
+coplot(CO2 ~Pasture|cow, data=gf, panel = panel.smooth)
+PlotTH <- ggplot(gf, aes(x=TotDM, y=CH4)) + geom_point() 
+PlotTH
+coplot(CH4 ~TotDM|cow, data=gf, panel = panel.smooth)
+PlotTH <- ggplot(gf, aes(x=Pasture, y=CH4)) + geom_point() 
+PlotTH
+coplot(CH4 ~Pasture|cow, data=gf, panel = panel.smooth)
+```
+
+
+
+```{r}
+plotCCO2<-ggplot(data=gf, aes(x=cow,y=CO2, fill = cow))+geom_boxplot(show.legend = FALSE)+theme(axis.text.x = element_text(angle=30, hjust=1, vjust=1))
+plotCCO2
+plotCCH4<-ggplot(data=gf, aes(x=cow,y=CH4, fill = cow))+geom_boxplot(show.legend = FALSE)+theme(axis.text.x = element_text(angle=30, hjust=1, vjust=1))
+plotCCH4
+```
+```{r}
+ggplot(gf, aes(x=day, y=CO2)) + geom_point()
+coplot(CO2 ~day|cow, data=gf, panel = panel.smooth)
+ggplot(gf, aes(x=day, y=CH4)) + geom_point()
+coplot(CH4 ~day|cow, data=gf, panel = panel.smooth)
+```
+```{r}
+ggplot(gf, aes(CO2, fill = cut(CO2,100))) + geom_histogram(bins = 20,show.legend = FALSE) 
+ggplot(gf, aes(CH4, fill = cut(CH4,100))) + geom_histogram(bins = 20,show.legend = FALSE) 
+```
+
+
+```{r}
+gamCO2<- gam(CO2 ~ s(day) + s(Pellets) + s(Pasture) + cow, data=gf, family = gaussian)
+sgamCO2<-summary(gamCO2)
+sgamCO2
+gamCO2_1<- gam(CO2 ~ s(day) + cow + Pellets + Pasture, data=gf, family = gaussian)
+sgamCO2_1<-summary(gamCO2_1)
+sgamCO2_1
+gamCO2_2<- gam(CO2 ~ s(day) + Pasture + cow, data=gf, family = gaussian)
+sgamCO2_2<-summary(gamCO2_2)
+sgamCO2_2
+gamCO2_3<- gam(CO2 ~ s(day) + cow, data=gf, family = gaussian)
+sgamCO2_3<-summary(gamCO2_3)
+sgamCO2_3
+RCO2 <- (sgamCO2_3$null.deviance-sgamCO2_3$deviance)/sgamCO2_3$null.deviance
+RCO2
+qqnorm(resid(gamCO2_3))
+gamCH4<- gam(CH4 ~ s(day) + s(Pellets) + s(Pasture) + cow, data=gf, family = gaussian)
+sgamCH4<-summary(gamCH4)
+sgamCH4
+gamCH4_1<- gam(CH4 ~ s(day) + s(Pasture) + cow, data=gf, family = gaussian)
+sgamCH4_1<-summary(gamCH4_1)
+sgamCH4_1
+RCH4 <- (sgamCH4_1$null.deviance-sgamCH4_1$deviance)/sgamCH4_1$null.deviance
+```
+```{r}
+library(gamclass)
+CVgam(formula=CO2 ~ s(day) + cow, data = gf, nfold = 10,  seed =1)
+CVgam(formula=CH4 ~ s(day) + s(Pasture) + cow, data = gf, nfold = 10,  seed =1)
+    
+```
+
+
+
+```{r}
+CO2full<-lm(CO2~Pellets + polym(Pasture,degree = 2) + cow + polym(day,degree = 2), gf)
+CO2step<-step(CO2full)
+summary(CO2step)
+anova(CO2step)
+CO2step1<-lm(CO2~cow + polym(day,degree = 2), gf)
+summary(CO2step1)
+anova(CO2step1)
+AIC(CO2step1)
+qqnorm(resid(CO2step1))
+
+```
+```{r}
+CH4full<-lm(CH4~Pellets + polym(Pasture,degree=2) + cow + polym(day,degree=2), gf)
+CH4step<-step(CH4full)
+summary(CH4step)
+anova(CH4step)
+AIC(CH4step)
+qqnorm(resid(CH4step))
+
+```
+
+```{r}
+library(lmerTest)
+lmeCO2 <- lmer(CO2 ~ polym(Pasture,degree=2) + polym(day,degree = 2) + Pellets + (1|cow), data = gf)
+summary(lmeCO2)
+lmeCO2_1 <- lmer(CO2 ~ polym(day,degree = 2) + (1|cow), data = gf)
+summary(lmeCO2_1)
+AIC(lmeCO2_1)
+qqnorm(resid(lmeCO2_1))
+```
+```{r}
+lmeCH4 <- lmer(CH4 ~ polym(Pasture,degree = 2) + polym(day,degree = 2) + Pellets + (1|cow), data = gf)
+summary(lmeCH4)
+lmeCH4_1 <- lmer(CH4 ~ polym(Pasture,degree = 2) + polym(day,degree = 2) + (1|cow), data = gf)
+summary(lmeCH4_1)
+anova(lmeCH4_1,lmeCH4, test = 'F')
+AIC(lmeCH4_1)
+qqnorm(resid(lmeCH4_1))
+```
+
+

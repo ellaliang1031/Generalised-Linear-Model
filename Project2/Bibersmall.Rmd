@@ -1,0 +1,66 @@
+```{r}
+bibersmall<-read.table('D:/2018 first semester/linear regression/ASSIGNMENT2/Bibersmall.txt', header = TRUE)
+dim(bibersmall)
+summary(bibersmall)
+library(GGally)
+ggpairs(bibersmall[2:5])
+```
+```{r}
+par(mfrow=c(1,2))
+hist(bibersmall$endemic,xlab = 'Number of Endemic')
+boxplot(bibersmall$endemic, ylab = 'Number of Endemic Species',main='Boxpolot of Endemic')
+hist(bibersmall$area,xlab = 'area')
+boxplot(bibersmall$endemic, ylab = 'area',main='Boxpolot of area')
+hist(bibersmall$elevation,xlab = 'elevation')
+hist(bibersmall$isolation,xlab = 'isolation')
+boxplot(bibersmall$endemic, ylab = 'isolation',main='Boxpolot of isolation')
+```
+```{r}
+fit_endemic<-glm(bibersmall$endemic~bibersmall$area+bibersmall$elevation+bibersmall$isolation, family = poisson())
+summary(fit_endemic)
+```
+```{r}
+fit_endemic2<-update(fit_endemic,~.-bibersmall$area)
+summary(fit_endemic2)
+```
+```{r}
+exp(coef(fit_endemic2))
+```
+```{r}
+library(qcc)
+```
+```{r}
+qcc.overdispersion.test(bibersmall$endemic, type = 'poisson')
+```
+```{r}
+fit_endemic_qu<-glm(bibersmall$endemic~bibersmall$area+bibersmall$elevation+bibersmall$isolation, family = quasipoisson())
+summary(fit_endemic_qu)
+fit_endemic_qu2<-update(fit_endemic_qu, ~.-bibersmall$area)
+summary(fit_endemic_qu2)
+fit_endemic_qu3<-update(fit_endemic_qu2, ~.-bibersmall$isolation)
+summary(fit_endemic_qu3)
+```
+```{r}
+exp(coef(fit_endemic_inter2))
+```
+```{r}
+fit_endemic_inter<-glm(bibersmall$endemic~bibersmall$area*bibersmall$elevation*bibersmall$isolation, family = quasipoisson())
+summary(fit_endemic_inter)
+```
+```{r}
+fit_endemic_inter1<-glm(bibersmall$endemic~bibersmall$area+bibersmall$elevation+bibersmall$isolation+bibersmall$area:bibersmall$elevation, family = quasipoisson())
+summary(fit_endemic_inter1)
+```
+```{r}
+fit_endemic_inter2<-update(fit_endemic_inter1,~.-bibersmall$isolation)
+summary(fit_endemic_inter2)
+```
+
+```{r}
+anova(fit_endemic_qu3,fit_endemic_inter2,test= 'Chisq')
+
+```
+```{r}
+exp(1.219+4.253*10^(-5)*20000+4.365*10^(-4)*1000-1.419*10^(-8)*20000000)
+```
+

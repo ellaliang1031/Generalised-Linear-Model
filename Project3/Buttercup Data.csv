@@ -1,0 +1,865 @@
+"Farm","Paddock","Mow","Herbicide","Buttercuppc","BareGrnd"
+"Farm B","Dry","Mow","MCPB+bentazone",0.1,110
+"Farm B","Dry","Mow","MCPB",0.55,125
+"Farm B","Dry","Mow","Flumetsulam",0.05,125
+"Farm B","Dry","Mow","MCPB+bentazone",0,188
+"Farm B","Dry","Mow","MCPA",0.05,175
+"Farm B","Dry","Mow","Nil",1.05,150
+"Farm B","Dry","Mow","MCPA",0,188
+"Farm B","Dry","Mow","MCPB+bentazone",0,175
+"Farm B","Dry","Mow","Nil",0.75,150
+"Farm B","Dry","Mow","Thifensulfuron-methyl",0.25,175
+"Farm B","Dry","Mow","Aminopyralid+triclopyr",0,200
+"Farm B","Dry","Mow","MCPB",0.5,185
+"Farm B","Dry","Mow","MCPA",0,200
+"Farm B","Dry","Mow","Flumetsulam",0,175
+"Farm B","Dry","Mow","Aminopyralid",0,250
+"Farm B","Dry","Mow","Aminopyralid",0,250
+"Farm B","Dry","Mow","Nil",2.75,150
+"Farm B","Dry","Mow","Thifensulfuron-methyl",0.3,163
+"Farm B","Dry","Mow","Aminopyralid+triclopyr",0,220
+"Farm B","Dry","Mow","Aminopyralid+triclopyr",0,255
+"Farm B","Dry","Mow","Aminopyralid",0,235
+"Farm B","Dry","Mow","Flumetsulam",0,205
+"Farm B","Dry","Mow","MCPB",0,225
+"Farm B","Dry","Mow","Thifensulfuron-methyl",0,175
+"Farm B","Dry","No Mow","Aminopyralid",0,300
+"Farm B","Dry","No Mow","Aminopyralid",0,260
+"Farm B","Dry","No Mow","Flumetsulam",0,195
+"Farm B","Dry","No Mow","MCPB",0.75,255
+"Farm B","Dry","No Mow","MCPB+bentazone",0,270
+"Farm B","Dry","No Mow","MCPA",0.01,310
+"Farm B","Dry","No Mow","MCPA",0.01,320
+"Farm B","Dry","No Mow","Nil",4.75,250
+"Farm B","Dry","No Mow","Thifensulfuron-methyl",0.55,200
+"Farm B","Dry","No Mow","Aminopyralid",0.05,225
+"Farm B","Dry","No Mow","MCPB+bentazone",0,235
+"Farm B","Dry","No Mow","Nil",3.5,245
+"Farm B","Dry","No Mow","Aminopyralid+triclopyr",0,400
+"Farm B","Dry","No Mow","MCPB",2.5,175
+"Farm B","Dry","No Mow","MCPB",0.8,200
+"Farm B","Dry","No Mow","Aminopyralid+triclopyr",0,525
+"Farm B","Dry","No Mow","Thifensulfuron-methyl",1,275
+"Farm B","Dry","No Mow","Thifensulfuron-methyl",0.325,300
+"Farm B","Dry","No Mow","Aminopyralid+triclopyr",0,300
+"Farm B","Dry","No Mow","Flumetsulam",0.05,200
+"Farm B","Dry","No Mow","Flumetsulam",0.05,150
+"Farm B","Dry","No Mow","MCPA",0.1,180
+"Farm B","Dry","No Mow","MCPB+bentazone",0,200
+"Farm B","Dry","No Mow","Nil",3,170
+"Farm B","Wet","Mow","MCPA",2.5,140
+"Farm B","Wet","Mow","Nil",26.25,155
+"Farm B","Wet","Mow","Thifensulfuron-methyl",8.5,85
+"Farm B","Wet","Mow","Thifensulfuron-methyl",11.25,55
+"Farm B","Wet","Mow","Flumetsulam",4,70
+"Farm B","Wet","Mow","MCPA",3.5,70
+"Farm B","Wet","Mow","Thifensulfuron-methyl",4.5,80
+"Farm B","Wet","Mow","MCPB",10,75
+"Farm B","Wet","Mow","Aminopyralid+triclopyr",0.005,100
+"Farm B","Wet","Mow","MCPB+bentazone",6.25,60
+"Farm B","Wet","Mow","Flumetsulam",4,80
+"Farm B","Wet","Mow","Aminopyralid",0.5,85
+"Farm B","Wet","Mow","MCPB",11,75
+"Farm B","Wet","Mow","Nil",17.5,70
+"Farm B","Wet","Mow","Nil",17.5,60
+"Farm B","Wet","Mow","Aminopyralid",0.175,55
+"Farm B","Wet","Mow","Aminopyralid+triclopyr",1.5,95
+"Farm B","Wet","Mow","MCPA",5.5,85
+"Farm B","Wet","Mow","Aminopyralid+triclopyr",0.055,100
+"Farm B","Wet","Mow","Aminopyralid",0.175,120
+"Farm B","Wet","Mow","MCPB+bentazone",6.25,85
+"Farm B","Wet","Mow","MCPB",13.75,70
+"Farm B","Wet","Mow","MCPB+bentazone",7.75,105
+"Farm B","Wet","Mow","Flumetsulam",1.75,110
+"Farm B","Wet","No Mow","MCPB",27.5,50
+"Farm B","Wet","No Mow","Aminopyralid",0.3,150
+"Farm B","Wet","No Mow","Flumetsulam",2.25,110
+"Farm B","Wet","No Mow","Nil",50,45
+"Farm B","Wet","No Mow","MCPA",4.5,105
+"Farm B","Wet","No Mow","MCPB+bentazone",10.75,85
+"Farm B","Wet","No Mow","MCPA",9,95
+"Farm B","Wet","No Mow","Flumetsulam",7.25,135
+"Farm B","Wet","No Mow","MCPB+bentazone",17,105
+"Farm B","Wet","No Mow","Aminopyralid+triclopyr",1.75,130
+"Farm B","Wet","No Mow","Thifensulfuron-methyl",8.75,75
+"Farm B","Wet","No Mow","Nil",60,55
+"Farm B","Wet","No Mow","Nil",37.5,55
+"Farm B","Wet","No Mow","Aminopyralid+triclopyr",0.38,130
+"Farm B","Wet","No Mow","MCPB+bentazone",13.75,110
+"Farm B","Wet","No Mow","Flumetsulam",5.5,135
+"Farm B","Wet","No Mow","Thifensulfuron-methyl",7.5,120
+"Farm B","Wet","No Mow","MCPB",57.5,55
+"Farm B","Wet","No Mow","Aminopyralid+triclopyr",0.625,125
+"Farm B","Wet","No Mow","Aminopyralid",0.05,110
+"Farm B","Wet","No Mow","MCPB",16.25,115
+"Farm B","Wet","No Mow","MCPA",0.505,130
+"Farm B","Wet","No Mow","Aminopyralid",0.055,110
+"Farm B","Wet","No Mow","Thifensulfuron-methyl",1.5,120
+"Farm H","Dry","Mow","Aminopyralid",0.05,25
+"Farm H","Dry","Mow","Aminopyralid+triclopyr",0.1,25
+"Farm H","Dry","Mow","MCPB+bentazone",5.5,15
+"Farm H","Dry","Mow","Thifensulfuron-methyl",5.75,15
+"Farm H","Dry","Mow","Flumetsulam",0.1,18
+"Farm H","Dry","Mow","MCPB+bentazone",1,23
+"Farm H","Dry","Mow","Aminopyralid",0.055,30
+"Farm H","Dry","Mow","Nil",12.5,15
+"Farm H","Dry","Mow","Aminopyralid+triclopyr",0.05,40
+"Farm H","Dry","Mow","MCPA",0.75,15
+"Farm H","Dry","Mow","MCPB",2.25,10
+"Farm H","Dry","Mow","MCPA",1,15
+"Farm H","Dry","Mow","MCPB+bentazone",0,13
+"Farm H","Dry","Mow","Flumetsulam",0.05,13
+"Farm H","Dry","Mow","Aminopyralid+triclopyr",0.05,15
+"Farm H","Dry","Mow","Thifensulfuron-methyl",5.5,8
+"Farm H","Dry","Mow","MCPA",0.1,11
+"Farm H","Dry","Mow","Nil",6.75,15
+"Farm H","Dry","Mow","MCPB",4,8
+"Farm H","Dry","Mow","Flumetsulam",0.25,18
+"Farm H","Dry","Mow","Nil",8.25,28
+"Farm H","Dry","Mow","Aminopyralid",0.055,28
+"Farm H","Dry","Mow","MCPB",3,23
+"Farm H","Dry","Mow","Thifensulfuron-methyl",5,20
+"Farm H","Dry","No Mow","MCPB",12.5,18
+"Farm H","Dry","No Mow","Nil",37.5,10
+"Farm H","Dry","No Mow","Thifensulfuron-methyl",3.25,15
+"Farm H","Dry","No Mow","Aminopyralid+triclopyr",0.175,30
+"Farm H","Dry","No Mow","MCPB+bentazone",2,6
+"Farm H","Dry","No Mow","MCPB",7.75,11
+"Farm H","Dry","No Mow","Aminopyralid",0.3,40
+"Farm H","Dry","No Mow","MCPB+bentazone",1.25,30
+"Farm H","Dry","No Mow","Nil",25,25
+"Farm H","Dry","No Mow","Aminopyralid",1,15
+"Farm H","Dry","No Mow","Thifensulfuron-methyl",4,16
+"Farm H","Dry","No Mow","Flumetsulam",0.375,13
+"Farm H","Dry","No Mow","Aminopyralid",0.625,40
+"Farm H","Dry","No Mow","Flumetsulam",0.35,25
+"Farm H","Dry","No Mow","MCPA",1.75,25
+"Farm H","Dry","No Mow","Aminopyralid+triclopyr",0.375,30
+"Farm H","Dry","No Mow","MCPB",4.25,10
+"Farm H","Dry","No Mow","Nil",18,10
+"Farm H","Dry","No Mow","Thifensulfuron-methyl",3.25,10
+"Farm H","Dry","No Mow","Aminopyralid+triclopyr",0,25
+"Farm H","Dry","No Mow","MCPA",1,15
+"Farm H","Dry","No Mow","Flumetsulam",0.3,23
+"Farm H","Dry","No Mow","MCPA",1.875,15
+"Farm H","Dry","No Mow","MCPB+bentazone",0.25,15
+"Farm H","Wet","Mow","MCPB+bentazone",0,475
+"Farm H","Wet","Mow","Thifensulfuron-methyl",0,275
+"Farm H","Wet","Mow","Aminopyralid",0,475
+"Farm H","Wet","Mow","Aminopyralid+triclopyr",0,475
+"Farm H","Wet","Mow","Flumetsulam",0,175
+"Farm H","Wet","Mow","Thifensulfuron-methyl",0,250
+"Farm H","Wet","Mow","Flumetsulam",0.005,250
+"Farm H","Wet","Mow","MCPB",1.5,275
+"Farm H","Wet","Mow","MCPB+bentazone",2.55,200
+"Farm H","Wet","Mow","Nil",4,170
+"Farm H","Wet","Mow","Thifensulfuron-methyl",0.3,200
+"Farm H","Wet","Mow","Nil",3,160
+"Farm H","Wet","Mow","Aminopyralid+triclopyr",0,175
+"Farm H","Wet","Mow","MCPA",0.05,175
+"Farm H","Wet","Mow","Nil",2.75,125
+"Farm H","Wet","Mow","Flumetsulam",0,200
+"Farm H","Wet","Mow","MCPA",0,225
+"Farm H","Wet","Mow","Aminopyralid",0,250
+"Farm H","Wet","Mow","Aminopyralid+triclopyr",0,205
+"Farm H","Wet","Mow","MCPB",0.3,155
+"Farm H","Wet","Mow","MCPA",0,95
+"Farm H","Wet","Mow","MCPB",0,125
+"Farm H","Wet","Mow","MCPB+bentazone",0,160
+"Farm H","Wet","Mow","Aminopyralid",0,150
+"Farm H","Wet","No Mow","Aminopyralid",0.1,250
+"Farm H","Wet","No Mow","Thifensulfuron-methyl",0,200
+"Farm H","Wet","No Mow","Aminopyralid+triclopyr",0,200
+"Farm H","Wet","No Mow","MCPB+bentazone",0.1,163
+"Farm H","Wet","No Mow","Thifensulfuron-methyl",0.25,88
+"Farm H","Wet","No Mow","MCPA",0,275
+"Farm H","Wet","No Mow","Nil",12.25,100
+"Farm H","Wet","No Mow","MCPB",0,350
+"Farm H","Wet","No Mow","Nil",15,90
+"Farm H","Wet","No Mow","Flumetsulam",0,125
+"Farm H","Wet","No Mow","Aminopyralid+triclopyr",0,150
+"Farm H","Wet","No Mow","MCPB+bentazone",0,175
+"Farm H","Wet","No Mow","Flumetsulam",0,175
+"Farm H","Wet","No Mow","Aminopyralid",0,225
+"Farm H","Wet","No Mow","MCPA",0.05,225
+"Farm H","Wet","No Mow","Thifensulfuron-methyl",0.005,200
+"Farm H","Wet","No Mow","Nil",16.75,58
+"Farm H","Wet","No Mow","MCPB+bentazone",0,300
+"Farm H","Wet","No Mow","Aminopyralid",0,175
+"Farm H","Wet","No Mow","Aminopyralid+triclopyr",0.08,125
+"Farm H","Wet","No Mow","MCPB",0.255,100
+"Farm H","Wet","No Mow","Flumetsulam",0.175,100
+"Farm H","Wet","No Mow","MCPA",0,150
+"Farm H","Wet","No Mow","MCPB",0,165
+"Farm I","Dry","Mow","Flumetsulam",0.3,110
+"Farm I","Dry","Mow","MCPB",2.25,115
+"Farm I","Dry","Mow","Flumetsulam",0,165
+"Farm I","Dry","Mow","MCPB+bentazone",1.5,95
+"Farm I","Dry","Mow","Aminopyralid",1,110
+"Farm I","Dry","Mow","MCPA",0,125
+"Farm I","Dry","Mow","Aminopyralid",0,125
+"Farm I","Dry","Mow","Thifensulfuron-methyl",2,105
+"Farm I","Dry","Mow","Aminopyralid+triclopyr",0.125,130
+"Farm I","Dry","Mow","Aminopyralid+triclopyr",0,135
+"Farm I","Dry","Mow","Nil",9.5,125
+"Farm I","Dry","Mow","Nil",16,105
+"Farm I","Dry","Mow","MCPB+bentazone",2.25,145
+"Farm I","Dry","Mow","MCPB",2.5,120
+"Farm I","Dry","Mow","MCPB+bentazone",5.5,130
+"Farm I","Dry","Mow","MCPA",0.005,180
+"Farm I","Dry","Mow","MCPA",0,155
+"Farm I","Dry","Mow","Flumetsulam",0.05,125
+"Farm I","Dry","Mow","MCPB",1.25,120
+"Farm I","Dry","Mow","Aminopyralid",0.5,130
+"Farm I","Dry","Mow","Aminopyralid+triclopyr",0,100
+"Farm I","Dry","Mow","Thifensulfuron-methyl",0.75,125
+"Farm I","Dry","Mow","Nil",8.75,95
+"Farm I","Dry","Mow","Thifensulfuron-methyl",1.25,110
+"Farm I","Dry","No Mow","Nil",40,35
+"Farm I","Dry","No Mow","MCPA",0.125,65
+"Farm I","Dry","No Mow","Aminopyralid",0.05,85
+"Farm I","Dry","No Mow","MCPB+bentazone",2,55
+"Farm I","Dry","No Mow","Aminopyralid",0,60
+"Farm I","Dry","No Mow","Thifensulfuron-methyl",1,50
+"Farm I","Dry","No Mow","Nil",27.5,65
+"Farm I","Dry","No Mow","Aminopyralid+triclopyr",0,90
+"Farm I","Dry","No Mow","Flumetsulam",0,65
+"Farm I","Dry","No Mow","Thifensulfuron-methyl",2.5,70
+"Farm I","Dry","No Mow","Thifensulfuron-methyl",0.05,60
+"Farm I","Dry","No Mow","Flumetsulam",0.005,65
+"Farm I","Dry","No Mow","MCPB+bentazone",1.25,40
+"Farm I","Dry","No Mow","MCPB",3,50
+"Farm I","Dry","No Mow","Aminopyralid+triclopyr",0,90
+"Farm I","Dry","No Mow","Nil",4,80
+"Farm I","Dry","No Mow","MCPA",0,45
+"Farm I","Dry","No Mow","MCPB",0,60
+"Farm I","Dry","No Mow","Aminopyralid",0.05,90
+"Farm I","Dry","No Mow","MCPB",1.25,45
+"Farm I","Dry","No Mow","MCPA",0,55
+"Farm I","Dry","No Mow","Aminopyralid+triclopyr",0,65
+"Farm I","Dry","No Mow","Flumetsulam",0,55
+"Farm I","Dry","No Mow","MCPB+bentazone",0,55
+"Farm I","Wet","Mow","MCPB+bentazone",7.25,45
+"Farm I","Wet","Mow","MCPA",1,90
+"Farm I","Wet","Mow","Nil",65,15
+"Farm I","Wet","Mow","MCPA",1.25,40
+"Farm I","Wet","Mow","Aminopyralid",0.75,70
+"Farm I","Wet","Mow","MCPB+bentazone",7.5,40
+"Farm I","Wet","Mow","Flumetsulam",5,55
+"Farm I","Wet","Mow","Aminopyralid+triclopyr",0.75,95
+"Farm I","Wet","Mow","Nil",47.5,50
+"Farm I","Wet","Mow","Aminopyralid",0.505,115
+"Farm I","Wet","Mow","Thifensulfuron-methyl",8,50
+"Farm I","Wet","Mow","Aminopyralid+triclopyr",0,115
+"Farm I","Wet","Mow","MCPB",16,30
+"Farm I","Wet","Mow","MCPA",1,80
+"Farm I","Wet","Mow","MCPB",8,35
+"Farm I","Wet","Mow","Nil",40,23
+"Farm I","Wet","Mow","MCPB",16,50
+"Farm I","Wet","Mow","Flumetsulam",1.25,45
+"Farm I","Wet","Mow","Flumetsulam",3.75,50
+"Farm I","Wet","Mow","Aminopyralid",0.125,55
+"Farm I","Wet","Mow","MCPB+bentazone",3,45
+"Farm I","Wet","Mow","Thifensulfuron-methyl",4.5,48
+"Farm I","Wet","Mow","Aminopyralid+triclopyr",0.25,55
+"Farm I","Wet","Mow","Thifensulfuron-methyl",1.5,40
+"Farm I","Wet","No Mow","MCPB",10,25
+"Farm I","Wet","No Mow","Nil",55,10
+"Farm I","Wet","No Mow","MCPA",1.75,55
+"Farm I","Wet","No Mow","MCPA",1.25,35
+"Farm I","Wet","No Mow","MCPB",14.5,20
+"Farm I","Wet","No Mow","Aminopyralid+triclopyr",0.125,90
+"Farm I","Wet","No Mow","Aminopyralid",1.5,40
+"Farm I","Wet","No Mow","Flumetsulam",1.5,15
+"Farm I","Wet","No Mow","Flumetsulam",0.25,25
+"Farm I","Wet","No Mow","MCPB",10.5,15
+"Farm I","Wet","No Mow","MCPB+bentazone",3.5,15
+"Farm I","Wet","No Mow","Nil",60,8
+"Farm I","Wet","No Mow","Nil",52.5,10
+"Farm I","Wet","No Mow","MCPB+bentazone",5.5,15
+"Farm I","Wet","No Mow","MCPA",52.5,10
+"Farm I","Wet","No Mow","Thifensulfuron-methyl",0.005,10
+"Farm I","Wet","No Mow","Aminopyralid",2.75,50
+"Farm I","Wet","No Mow","Flumetsulam",0,40
+"Farm I","Wet","No Mow","Aminopyralid+triclopyr",0.5,70
+"Farm I","Wet","No Mow","Thifensulfuron-methyl",0.25,30
+"Farm I","Wet","No Mow","MCPB+bentazone",3.25,10
+"Farm I","Wet","No Mow","Aminopyralid+triclopyr",0.505,115
+"Farm I","Wet","No Mow","Aminopyralid",1.25,125
+"Farm I","Wet","No Mow","Thifensulfuron-methyl",1.05,100
+"Farm A","Wet","Mow","MCPA",2,45
+"Farm A","Wet","Mow","Nil",9,40
+"Farm A","Wet","Mow","Flumetsulam",3.75,43
+"Farm A","Wet","Mow","MCPB",0.75,115
+"Farm A","Wet","Mow","Aminopyralid",0,145
+"Farm A","Wet","Mow","MCPA",0.125,85
+"Farm A","Wet","Mow","Thifensulfuron-methyl",1,85
+"Farm A","Wet","Mow","Aminopyralid",1.25,80
+"Farm A","Wet","Mow","Thifensulfuron-methyl",2,50
+"Farm A","Wet","Mow","Aminopyralid+triclopyr",0.5,80
+"Farm A","Wet","Mow","MCPB",4.5,70
+"Farm A","Wet","Mow","Nil",2.75,50
+"Farm A","Wet","Mow","MCPB",0.75,65
+"Farm A","Wet","Mow","Flumetsulam",0.75,55
+"Farm A","Wet","Mow","MCPB+bentazone",1.5,50
+"Farm A","Wet","Mow","MCPB+bentazone",2.75,65
+"Farm A","Wet","Mow","Nil",6,60
+"Farm A","Wet","Mow","Aminopyralid+triclopyr",0,88
+"Farm A","Wet","Mow","MCPA",0.75,90
+"Farm A","Wet","Mow","Aminopyralid",0,105
+"Farm A","Wet","Mow","MCPB+bentazone",3,40
+"Farm A","Wet","Mow","Thifensulfuron-methyl",1.75,30
+"Farm A","Wet","Mow","Aminopyralid+triclopyr",0,115
+"Farm A","Wet","Mow","Flumetsulam",1,100
+"Farm A","Wet","No Mow","Flumetsulam",1,35
+"Farm A","Wet","No Mow","Aminopyralid+triclopyr",0.1,85
+"Farm A","Wet","No Mow","Aminopyralid",0,45
+"Farm A","Wet","No Mow","Aminopyralid",2.125,50
+"Farm A","Wet","No Mow","Aminopyralid+triclopyr",0.75,48
+"Farm A","Wet","No Mow","Flumetsulam",1.375,55
+"Farm A","Wet","No Mow","Nil",35,15
+"Farm A","Wet","No Mow","MCPB",5.5,40
+"Farm A","Wet","No Mow","MCPB+bentazone",5.25,25
+"Farm A","Wet","No Mow","MCPA",0.1,35
+"Farm A","Wet","No Mow","Aminopyralid+triclopyr",0,48
+"Farm A","Wet","No Mow","Thifensulfuron-methyl",0.75,25
+"Farm A","Wet","No Mow","Nil",9,35
+"Farm A","Wet","No Mow","Nil",10.75,35
+"Farm A","Wet","No Mow","MCPA",0.75,25
+"Farm A","Wet","No Mow","Flumetsulam",1.75,35
+"Farm A","Wet","No Mow","MCPB",2.75,25
+"Farm A","Wet","No Mow","Thifensulfuron-methyl",4.5,30
+"Farm A","Wet","No Mow","Aminopyralid",1.25,85
+"Farm A","Wet","No Mow","MCPB+bentazone",1.75,65
+"Farm A","Wet","No Mow","MCPB",4,45
+"Farm A","Wet","No Mow","MCPA",0,65
+"Farm A","Wet","No Mow","MCPB+bentazone",6.5,30
+"Farm A","Wet","No Mow","Thifensulfuron-methyl",0.75,38
+"Farm A","Dry","Mow","Nil",4.75,88
+"Farm A","Dry","Mow","Flumetsulam",0.375,70
+"Farm A","Dry","Mow","Aminopyralid",0.375,125
+"Farm A","Dry","Mow","Aminopyralid",0.5,140
+"Farm A","Dry","Mow","MCPA",0.375,115
+"Farm A","Dry","Mow","Aminopyralid+triclopyr",0.05,135
+"Farm A","Dry","Mow","Aminopyralid",0.05,125
+"Farm A","Dry","Mow","Aminopyralid+triclopyr",0.75,115
+"Farm A","Dry","Mow","MCPA",0.125,110
+"Farm A","Dry","Mow","Flumetsulam",0.1,120
+"Farm A","Dry","Mow","Aminopyralid+triclopyr",0,120
+"Farm A","Dry","Mow","MCPB",1,90
+"Farm A","Dry","Mow","Flumetsulam",0.75,60
+"Farm A","Dry","Mow","Nil",4.35,90
+"Farm A","Dry","Mow","MCPB+bentazone",1.5,45
+"Farm A","Dry","Mow","Thifensulfuron-methyl",2.5,90
+"Farm A","Dry","Mow","MCPB",1.25,60
+"Farm A","Dry","Mow","Thifensulfuron-methyl",4.5,70
+"Farm A","Dry","Mow","Nil",7.5,60
+"Farm A","Dry","Mow","MCPA",0.55,80
+"Farm A","Dry","Mow","MCPB+bentazone",2.5,65
+"Farm A","Dry","Mow","MCPB+bentazone",1.1,45
+"Farm A","Dry","Mow","Thifensulfuron-methyl",1.75,40
+"Farm A","Dry","Mow","MCPB",2.75,40
+"Farm A","Dry","No Mow","Aminopyralid",1.75,45
+"Farm A","Dry","No Mow","MCPB+bentazone",6,30
+"Farm A","Dry","No Mow","MCPB",13.5,40
+"Farm A","Dry","No Mow","MCPB",7.5,90
+"Farm A","Dry","No Mow","Aminopyralid+triclopyr",0.25,110
+"Farm A","Dry","No Mow","MCPB+bentazone",6,75
+"Farm A","Dry","No Mow","Nil",25,55
+"Farm A","Dry","No Mow","Nil",18,35
+"Farm A","Dry","No Mow","Thifensulfuron-methyl",2.75,30
+"Farm A","Dry","No Mow","Thifensulfuron-methyl",4,63
+"Farm A","Dry","No Mow","Flumetsulam",0.5,25
+"Farm A","Dry","No Mow","Flumetsulam",1.5,25
+"Farm A","Dry","No Mow","Flumetsulam",0,45
+"Farm A","Dry","No Mow","MCPB",40,85
+"Farm A","Dry","No Mow","Aminopyralid+triclopyr",0.075,70
+"Farm A","Dry","No Mow","MCPA",1.1,25
+"Farm A","Dry","No Mow","MCPA",1.25,45
+"Farm A","Dry","No Mow","Aminopyralid+triclopyr",0.005,105
+"Farm A","Dry","No Mow","Aminopyralid",0.375,95
+"Farm A","Dry","No Mow","MCPA",1.75,63
+"Farm A","Dry","No Mow","Nil",35,35
+"Farm A","Dry","No Mow","Aminopyralid",0.255,35
+"Farm A","Dry","No Mow","MCPB+bentazone",3.75,30
+"Farm A","Dry","No Mow","Thifensulfuron-methyl",0.1,65
+"Farm C","Wet","Mow","Thifensulfuron-methyl",NA,NA
+"Farm C","Wet","Mow","Aminopyralid+triclopyr",NA,NA
+"Farm C","Wet","Mow","Aminopyralid",NA,NA
+"Farm C","Wet","Mow","MCPB",NA,NA
+"Farm C","Wet","Mow","MCPA",NA,NA
+"Farm C","Wet","Mow","Thifensulfuron-methyl",NA,NA
+"Farm C","Wet","Mow","MCPB+bentazone",NA,NA
+"Farm C","Wet","Mow","MCPA",NA,NA
+"Farm C","Wet","Mow","Aminopyralid",NA,NA
+"Farm C","Wet","Mow","MCPB+bentazone",NA,NA
+"Farm C","Wet","Mow","Aminopyralid+triclopyr",NA,NA
+"Farm C","Wet","Mow","Aminopyralid",NA,NA
+"Farm C","Wet","Mow","MCPB",NA,NA
+"Farm C","Wet","Mow","MCPB+bentazone",NA,NA
+"Farm C","Wet","Mow","Aminopyralid+triclopyr",NA,NA
+"Farm C","Wet","Mow","Flumetsulam",NA,NA
+"Farm C","Wet","Mow","MCPB",NA,NA
+"Farm C","Wet","Mow","Nil",NA,NA
+"Farm C","Wet","Mow","Nil",NA,NA
+"Farm C","Wet","Mow","Flumetsulam",NA,NA
+"Farm C","Wet","Mow","Thifensulfuron-methyl",NA,NA
+"Farm C","Wet","Mow","Flumetsulam",NA,NA
+"Farm C","Wet","Mow","Nil",NA,NA
+"Farm C","Wet","Mow","MCPA",NA,NA
+"Farm C","Wet","No Mow","Aminopyralid+triclopyr",NA,NA
+"Farm C","Wet","No Mow","MCPA",NA,NA
+"Farm C","Wet","No Mow","Aminopyralid",NA,NA
+"Farm C","Wet","No Mow","Aminopyralid+triclopyr",NA,NA
+"Farm C","Wet","No Mow","MCPB+bentazone",NA,NA
+"Farm C","Wet","No Mow","Nil",NA,NA
+"Farm C","Wet","No Mow","Thifensulfuron-methyl",NA,NA
+"Farm C","Wet","No Mow","MCPB",NA,NA
+"Farm C","Wet","No Mow","MCPA",NA,NA
+"Farm C","Wet","No Mow","Flumetsulam",NA,NA
+"Farm C","Wet","No Mow","Aminopyralid",NA,NA
+"Farm C","Wet","No Mow","Nil",NA,NA
+"Farm C","Wet","No Mow","Nil",NA,NA
+"Farm C","Wet","No Mow","Aminopyralid",NA,NA
+"Farm C","Wet","No Mow","MCPB",NA,NA
+"Farm C","Wet","No Mow","MCPB+bentazone",NA,NA
+"Farm C","Wet","No Mow","MCPA",NA,NA
+"Farm C","Wet","No Mow","Thifensulfuron-methyl",NA,NA
+"Farm C","Wet","No Mow","Thifensulfuron-methyl",NA,NA
+"Farm C","Wet","No Mow","Aminopyralid+triclopyr",NA,NA
+"Farm C","Wet","No Mow","MCPB",NA,NA
+"Farm C","Wet","No Mow","Flumetsulam",NA,NA
+"Farm C","Wet","No Mow","MCPB+bentazone",NA,NA
+"Farm C","Wet","No Mow","Flumetsulam",NA,NA
+"Farm C","Dry","Mow","MCPB",3,225
+"Farm C","Dry","Mow","MCPA",3,345
+"Farm C","Dry","Mow","Aminopyralid+triclopyr",0,440
+"Farm C","Dry","Mow","Aminopyralid",2.75,390
+"Farm C","Dry","Mow","Nil",2.25,435
+"Farm C","Dry","Mow","MCPA",0.55,350
+"Farm C","Dry","Mow","MCPB+bentazone",2.75,225
+"Farm C","Dry","Mow","Thifensulfuron-methyl",1.5,245
+"Farm C","Dry","Mow","MCPB+bentazone",0.75,265
+"Farm C","Dry","Mow","Nil",6.5,300
+"Farm C","Dry","Mow","Nil",4.5,305
+"Farm C","Dry","Mow","Aminopyralid",0.55,325
+"Farm C","Dry","Mow","MCPB",1.55,285
+"Farm C","Dry","Mow","Aminopyralid+triclopyr",0,450
+"Farm C","Dry","Mow","Aminopyralid+triclopyr",0.175,475
+"Farm C","Dry","Mow","Thifensulfuron-methyl",1.05,385
+"Farm C","Dry","Mow","Flumetsulam",6,280
+"Farm C","Dry","Mow","Aminopyralid",2,445
+"Farm C","Dry","Mow","MCPB",3.5,270
+"Farm C","Dry","Mow","Flumetsulam",4.75,295
+"Farm C","Dry","Mow","MCPB+bentazone",5.625,295
+"Farm C","Dry","Mow","Flumetsulam",7.75,310
+"Farm C","Dry","Mow","MCPA",2,370
+"Farm C","Dry","Mow","Thifensulfuron-methyl",5.25,260
+"Farm C","Dry","No Mow","Flumetsulam",5.75,40
+"Farm C","Dry","No Mow","Aminopyralid",1.625,95
+"Farm C","Dry","No Mow","Aminopyralid",2.125,125
+"Farm C","Dry","No Mow","Thifensulfuron-methyl",1,60
+"Farm C","Dry","No Mow","Thifensulfuron-methyl",4,70
+"Farm C","Dry","No Mow","MCPA",2.75,88
+"Farm C","Dry","No Mow","Nil",27.5,60
+"Farm C","Dry","No Mow","Nil",37.5,55
+"Farm C","Dry","No Mow","Thifensulfuron-methyl",2,70
+"Farm C","Dry","No Mow","Flumetsulam",3.75,90
+"Farm C","Dry","No Mow","MCPB+bentazone",1.25,190
+"Farm C","Dry","No Mow","MCPA",1.75,170
+"Farm C","Dry","No Mow","Flumetsulam",5.25,290
+"Farm C","Dry","No Mow","Aminopyralid+triclopyr",0,275
+"Farm C","Dry","No Mow","Aminopyralid+triclopyr",0.005,155
+"Farm C","Dry","No Mow","Aminopyralid+triclopyr",0,90
+"Farm C","Dry","No Mow","MCPB",4,175
+"Farm C","Dry","No Mow","MCPB+bentazone",2.75,185
+"Farm C","Dry","No Mow","MCPB",6.75,90
+"Farm C","Dry","No Mow","MCPB",7.5,95
+"Farm C","Dry","No Mow","Aminopyralid",0.25,75
+"Farm C","Dry","No Mow","MCPA",0.875,115
+"Farm C","Dry","No Mow","Nil",21.5,43
+"Farm C","Dry","No Mow","MCPB+bentazone",0.75,80
+"Farm E","Wet","Mow","Flumetsulam",3.75,220
+"Farm E","Wet","Mow","Flumetsulam",4.75,180
+"Farm E","Wet","Mow","MCPB",1.6,175
+"Farm E","Wet","Mow","Aminopyralid",0,265
+"Farm E","Wet","Mow","Aminopyralid",0,215
+"Farm E","Wet","Mow","Nil",1.25,215
+"Farm E","Wet","Mow","Thifensulfuron-methyl",1,240
+"Farm E","Wet","Mow","Aminopyralid+triclopyr",0,240
+"Farm E","Wet","Mow","MCPA",1.4,290
+"Farm E","Wet","Mow","Aminopyralid+triclopyr",0,245
+"Farm E","Wet","Mow","MCPB+bentazone",1.1,150
+"Farm E","Wet","Mow","Aminopyralid+triclopyr",0,250
+"Farm E","Wet","Mow","MCPB+bentazone",1.4,225
+"Farm E","Wet","Mow","Thifensulfuron-methyl",3.15,210
+"Farm E","Wet","Mow","Aminopyralid",0,200
+"Farm E","Wet","Mow","MCPA",0.625,210
+"Farm E","Wet","Mow","MCPA",0.875,215
+"Farm E","Wet","Mow","Thifensulfuron-methyl",2.25,185
+"Farm E","Wet","Mow","MCPB",2.6,185
+"Farm E","Wet","Mow","Nil",4,200
+"Farm E","Wet","Mow","MCPB+bentazone",0.75,200
+"Farm E","Wet","Mow","Nil",6,180
+"Farm E","Wet","Mow","MCPB",5,155
+"Farm E","Wet","Mow","Flumetsulam",9.25,235
+"Farm E","Wet","No Mow","MCPB",8,90
+"Farm E","Wet","No Mow","MCPB+bentazone",8.5,90
+"Farm E","Wet","No Mow","Nil",11,95
+"Farm E","Wet","No Mow","Flumetsulam",15.75,50
+"Farm E","Wet","No Mow","Flumetsulam",36.25,38
+"Farm E","Wet","No Mow","Aminopyralid",0.125,80
+"Farm E","Wet","No Mow","Nil",23,45
+"Farm E","Wet","No Mow","Nil",11.5,65
+"Farm E","Wet","No Mow","Aminopyralid+triclopyr",0.1,65
+"Farm E","Wet","No Mow","Aminopyralid",0.225,70
+"Farm E","Wet","No Mow","Thifensulfuron-methyl",21,35
+"Farm E","Wet","No Mow","MCPB+bentazone",8,45
+"Farm E","Wet","No Mow","MCPA",6,55
+"Farm E","Wet","No Mow","MCPB",10.5,60
+"Farm E","Wet","No Mow","MCPA",2,45
+"Farm E","Wet","No Mow","Thifensulfuron-methyl",13.5,33
+"Farm E","Wet","No Mow","MCPB+bentazone",4.75,60
+"Farm E","Wet","No Mow","Flumetsulam",15.5,40
+"Farm E","Wet","No Mow","Aminopyralid",0.175,43
+"Farm E","Wet","No Mow","Aminopyralid+triclopyr",0,40
+"Farm E","Wet","No Mow","Thifensulfuron-methyl",21,45
+"Farm E","Wet","No Mow","Aminopyralid+triclopyr",0,33
+"Farm E","Wet","No Mow","MCPA",3.5,35
+"Farm E","Wet","No Mow","MCPB",11,60
+"Farm E","Dry","Mow","Flumetsulam",0.175,40
+"Farm E","Dry","Mow","MCPA",3.5,50
+"Farm E","Dry","Mow","MCPB+bentazone",16.5,85
+"Farm E","Dry","Mow","Nil",14.75,60
+"Farm E","Dry","Mow","Nil",10.5,75
+"Farm E","Dry","Mow","MCPA",14,125
+"Farm E","Dry","Mow","Aminopyralid+triclopyr",0,100
+"Farm E","Dry","Mow","Flumetsulam",1.5,100
+"Farm E","Dry","Mow","Aminopyralid",0.55,100
+"Farm E","Dry","Mow","Thifensulfuron-methyl",0.5,60
+"Farm E","Dry","Mow","Thifensulfuron-methyl",0.55,43
+"Farm E","Dry","Mow","MCPB",4.5,70
+"Farm E","Dry","Mow","Nil",6.75,75
+"Farm E","Dry","Mow","MCPB+bentazone",1.5,35
+"Farm E","Dry","Mow","MCPA",3,58
+"Farm E","Dry","Mow","Thifensulfuron-methyl",4,38
+"Farm E","Dry","Mow","Flumetsulam",0.05,40
+"Farm E","Dry","Mow","MCPB",17,40
+"Farm E","Dry","Mow","Aminopyralid+triclopyr",0,125
+"Farm E","Dry","Mow","Aminopyralid",0.05,100
+"Farm E","Dry","Mow","Aminopyralid+triclopyr",0,85
+"Farm E","Dry","Mow","MCPB",5.75,45
+"Farm E","Dry","Mow","MCPB+bentazone",0.1,45
+"Farm E","Dry","Mow","Aminopyralid",0.05,48
+"Farm E","Dry","No Mow","MCPB",10.5,8
+"Farm E","Dry","No Mow","Aminopyralid+triclopyr",0.05,55
+"Farm E","Dry","No Mow","MCPB+bentazone",3.25,50
+"Farm E","Dry","No Mow","Aminopyralid",0,75
+"Farm E","Dry","No Mow","MCPB",4.25,35
+"Farm E","Dry","No Mow","MCPA",0.6,50
+"Farm E","Dry","No Mow","Flumetsulam",0.8,60
+"Farm E","Dry","No Mow","Nil",6,65
+"Farm E","Dry","No Mow","Aminopyralid",0.3,105
+"Farm E","Dry","No Mow","Aminopyralid",0.3,85
+"Farm E","Dry","No Mow","Flumetsulam",2,75
+"Farm E","Dry","No Mow","Thifensulfuron-methyl",1.25,95
+"Farm E","Dry","No Mow","Nil",42.5,25
+"Farm E","Dry","No Mow","MCPB+bentazone",0.05,125
+"Farm E","Dry","No Mow","MCPB+bentazone",2.75,105
+"Farm E","Dry","No Mow","MCPB",2.75,155
+"Farm E","Dry","No Mow","Aminopyralid+triclopyr",0.005,120
+"Farm E","Dry","No Mow","Thifensulfuron-methyl",1.5,40
+"Farm E","Dry","No Mow","MCPA",3,30
+"Farm E","Dry","No Mow","Nil",5.75,55
+"Farm E","Dry","No Mow","Thifensulfuron-methyl",0.75,100
+"Farm E","Dry","No Mow","Flumetsulam",0.1,90
+"Farm E","Dry","No Mow","MCPA",0.15,115
+"Farm E","Dry","No Mow","Aminopyralid+triclopyr",0,153
+"Farm D","Wet","Mow","Aminopyralid",0.2,25
+"Farm D","Wet","Mow","Aminopyralid+triclopyr",0,25
+"Farm D","Wet","Mow","MCPB+bentazone",3.5,28
+"Farm D","Wet","Mow","MCPA",1.5,15
+"Farm D","Wet","Mow","MCPB",1.5,13
+"Farm D","Wet","Mow","Flumetsulam",0,0
+"Farm D","Wet","Mow","MCPA",0.75,10
+"Farm D","Wet","Mow","Nil",5.25,6
+"Farm D","Wet","Mow","MCPA",0.225,9
+"Farm D","Wet","Mow","Thifensulfuron-methyl",0.3,14
+"Farm D","Wet","Mow","Aminopyralid",0,18
+"Farm D","Wet","Mow","MCPB+bentazone",0.25,10
+"Farm D","Wet","Mow","MCPB",0.4,11
+"Farm D","Wet","Mow","Aminopyralid+triclopyr",0,13
+"Farm D","Wet","Mow","Aminopyralid+triclopyr",0,20
+"Farm D","Wet","Mow","Aminopyralid",0,30
+"Farm D","Wet","Mow","Nil",14.5,13
+"Farm D","Wet","Mow","Flumetsulam",0.25,25
+"Farm D","Wet","Mow","Thifensulfuron-methyl",0.5,38
+"Farm D","Wet","Mow","Flumetsulam",0,18
+"Farm D","Wet","Mow","MCPB",0,16
+"Farm D","Wet","Mow","Thifensulfuron-methyl",1.1,14
+"Farm D","Wet","Mow","MCPB+bentazone",0.35,32
+"Farm D","Wet","Mow","Nil",8,15
+"Farm D","Wet","No Mow","Aminopyralid",0,45
+"Farm D","Wet","No Mow","Aminopyralid+triclopyr",0.1,60
+"Farm D","Wet","No Mow","Thifensulfuron-methyl",1.5,40
+"Farm D","Wet","No Mow","Nil",5.5,8
+"Farm D","Wet","No Mow","Thifensulfuron-methyl",0.15,35
+"Farm D","Wet","No Mow","MCPB+bentazone",2.5,8
+"Farm D","Wet","No Mow","MCPB",5,10
+"Farm D","Wet","No Mow","MCPB",6,7
+"Farm D","Wet","No Mow","Thifensulfuron-methyl",1.5,18
+"Farm D","Wet","No Mow","Flumetsulam",0.75,5
+"Farm D","Wet","No Mow","Flumetsulam",0,10
+"Farm D","Wet","No Mow","Aminopyralid+triclopyr",0.1,205
+"Farm D","Wet","No Mow","MCPB+bentazone",6.5,25
+"Farm D","Wet","No Mow","MCPA",0.1,55
+"Farm D","Wet","No Mow","Aminopyralid",0,40
+"Farm D","Wet","No Mow","Flumetsulam",0.125,4
+"Farm D","Wet","No Mow","Nil",12,3
+"Farm D","Wet","No Mow","Aminopyralid+triclopyr",0,40
+"Farm D","Wet","No Mow","Nil",8.75,27
+"Farm D","Wet","No Mow","MCPA",0.2,50
+"Farm D","Wet","No Mow","Aminopyralid",0,30
+"Farm D","Wet","No Mow","MCPA",0.1,25
+"Farm D","Wet","No Mow","MCPB",1.6,20
+"Farm D","Wet","No Mow","MCPB+bentazone",2,13
+"Farm D","Dry","Mow","MCPA",0.6,60
+"Farm D","Dry","Mow","Nil",5.5,1
+"Farm D","Dry","Mow","Nil",5.25,4
+"Farm D","Dry","Mow","MCPB",5,8
+"Farm D","Dry","Mow","Flumetsulam",0.65,4
+"Farm D","Dry","Mow","Aminopyralid+triclopyr",0,30
+"Farm D","Dry","Mow","Thifensulfuron-methyl",1.75,15
+"Farm D","Dry","Mow","Aminopyralid",0.1,30
+"Farm D","Dry","Mow","Aminopyralid",0,20
+"Farm D","Dry","Mow","Aminopyralid+triclopyr",0,65
+"Farm D","Dry","Mow","MCPB",3.5,7
+"Farm D","Dry","Mow","Nil",6,5
+"Farm D","Dry","Mow","Thifensulfuron-methyl",2.8,2
+"Farm D","Dry","Mow","MCPB+bentazone",1.25,3
+"Farm D","Dry","Mow","MCPA",1.5,68
+"Farm D","Dry","Mow","Thifensulfuron-methyl",1.4,4
+"Farm D","Dry","Mow","Flumetsulam",0.3,5
+"Farm D","Dry","Mow","MCPA",1.25,35
+"Farm D","Dry","Mow","Aminopyralid",0,60
+"Farm D","Dry","Mow","Flumetsulam",0.575,4
+"Farm D","Dry","Mow","MCPB+bentazone",1.75,28
+"Farm D","Dry","Mow","MCPB+bentazone",1.65,11
+"Farm D","Dry","Mow","Aminopyralid+triclopyr",1.1,40
+"Farm D","Dry","Mow","MCPB",3.5,9
+"Farm D","Dry","No Mow","MCPA",0.45,28
+"Farm D","Dry","No Mow","MCPB",1.2,13
+"Farm D","Dry","No Mow","Aminopyralid+triclopyr",0.05,29
+"Farm D","Dry","No Mow","MCPB+bentazone",0.55,45
+"Farm D","Dry","No Mow","Aminopyralid+triclopyr",1.1,60
+"Farm D","Dry","No Mow","MCPA",1,10
+"Farm D","Dry","No Mow","Nil",8,0
+"Farm D","Dry","No Mow","MCPB+bentazone",0.1,9
+"Farm D","Dry","No Mow","Nil",16,3
+"Farm D","Dry","No Mow","Flumetsulam",0,10
+"Farm D","Dry","No Mow","Flumetsulam",0,10
+"Farm D","Dry","No Mow","MCPA",0.2,30
+"Farm D","Dry","No Mow","Aminopyralid+triclopyr",0,30
+"Farm D","Dry","No Mow","Thifensulfuron-methyl",1,25
+"Farm D","Dry","No Mow","Aminopyralid",0.05,55
+"Farm D","Dry","No Mow","MCPB",4.75,14
+"Farm D","Dry","No Mow","Nil",4.5,0
+"Farm D","Dry","No Mow","MCPB+bentazone",0.25,2
+"Farm D","Dry","No Mow","Thifensulfuron-methyl",0.05,5
+"Farm D","Dry","No Mow","MCPB",1.25,5
+"Farm D","Dry","No Mow","Aminopyralid",0,25
+"Farm D","Dry","No Mow","Aminopyralid",0,30
+"Farm D","Dry","No Mow","Thifensulfuron-methyl",0.7,55
+"Farm D","Dry","No Mow","Flumetsulam",0.5,0
+"Farm G","Wet","Mow","Nil",3.875,0
+"Farm G","Wet","Mow","MCPB",6.25,0
+"Farm G","Wet","Mow","MCPA",1.75,0
+"Farm G","Wet","Mow","MCPB+bentazone",1.5,0
+"Farm G","Wet","Mow","Flumetsulam",0.75,0
+"Farm G","Wet","Mow","MCPA",3.25,5
+"Farm G","Wet","Mow","Nil",8.5,0
+"Farm G","Wet","Mow","MCPB",7.5,3
+"Farm G","Wet","Mow","Flumetsulam",0.125,0
+"Farm G","Wet","Mow","Thifensulfuron-methyl",2.1,0
+"Farm G","Wet","Mow","MCPB+bentazone",3.125,0
+"Farm G","Wet","Mow","Thifensulfuron-methyl",1.5,3
+"Farm G","Wet","Mow","Aminopyralid+triclopyr",0.15,0
+"Farm G","Wet","Mow","Aminopyralid+triclopyr",0.15,0
+"Farm G","Wet","Mow","Aminopyralid",0.9,5
+"Farm G","Wet","Mow","MCPB",9.75,0
+"Farm G","Wet","Mow","Aminopyralid+triclopyr",0.15,0
+"Farm G","Wet","Mow","Nil",2,5
+"Farm G","Wet","Mow","MCPA",3,0
+"Farm G","Wet","Mow","Flumetsulam",0.05,0
+"Farm G","Wet","Mow","Aminopyralid",0.3,0
+"Farm G","Wet","Mow","MCPB+bentazone",4,2
+"Farm G","Wet","Mow","Aminopyralid",0.425,0
+"Farm G","Wet","Mow","Thifensulfuron-methyl",3,0
+"Farm G","Wet","No Mow","Aminopyralid+triclopyr",0.9,5
+"Farm G","Wet","No Mow","Aminopyralid+triclopyr",0.2,9
+"Farm G","Wet","No Mow","MCPA",5,9
+"Farm G","Wet","No Mow","Thifensulfuron-methyl",2.375,10
+"Farm G","Wet","No Mow","MCPB+bentazone",7.5,4
+"Farm G","Wet","No Mow","Flumetsulam",0.65,0
+"Farm G","Wet","No Mow","Flumetsulam",0.65,0
+"Farm G","Wet","No Mow","Aminopyralid",0.125,8
+"Farm G","Wet","No Mow","MCPB",9,4
+"Farm G","Wet","No Mow","Aminopyralid",0.2,3
+"Farm G","Wet","No Mow","Nil",24,1
+"Farm G","Wet","No Mow","MCPB+bentazone",12.5,3
+"Farm G","Wet","No Mow","MCPA",8,0
+"Farm G","Wet","No Mow","MCPB+bentazone",4.75,0
+"Farm G","Wet","No Mow","MCPA",7,6
+"Farm G","Wet","No Mow","Nil",8,0
+"Farm G","Wet","No Mow","Aminopyralid+triclopyr",0.25,3
+"Farm G","Wet","No Mow","Thifensulfuron-methyl",1.5,0
+"Farm G","Wet","No Mow","Aminopyralid",0.1,0
+"Farm G","Wet","No Mow","Thifensulfuron-methyl",3.5,0
+"Farm G","Wet","No Mow","MCPB",4,0
+"Farm G","Wet","No Mow","MCPB",5.375,0
+"Farm G","Wet","No Mow","Flumetsulam",1.25,0
+"Farm G","Wet","No Mow","Nil",12.5,0
+"Farm G","Dry","Mow","MCPA",7,0
+"Farm G","Dry","Mow","Thifensulfuron-methyl",1,2
+"Farm G","Dry","Mow","MCPA",8.5,0
+"Farm G","Dry","Mow","Nil",52.5,0
+"Farm G","Dry","Mow","Aminopyralid+triclopyr",0,0
+"Farm G","Dry","Mow","Aminopyralid",0.05,0
+"Farm G","Dry","Mow","Nil",57.5,0
+"Farm G","Dry","Mow","Aminopyralid",0.1,1
+"Farm G","Dry","Mow","MCPB+bentazone",11.5,1
+"Farm G","Dry","Mow","Flumetsulam",1.125,3
+"Farm G","Dry","Mow","MCPA",6,2
+"Farm G","Dry","Mow","Thifensulfuron-methyl",2,0
+"Farm G","Dry","Mow","Flumetsulam",0.65,0
+"Farm G","Dry","Mow","Aminopyralid",0.2,2
+"Farm G","Dry","Mow","MCPB+bentazone",4,3
+"Farm G","Dry","Mow","Thifensulfuron-methyl",2,3
+"Farm G","Dry","Mow","Nil",14,3
+"Farm G","Dry","Mow","Flumetsulam",0.25,0
+"Farm G","Dry","Mow","Aminopyralid+triclopyr",0.05,6
+"Farm G","Dry","Mow","MCPB",15,8
+"Farm G","Dry","Mow","MCPB+bentazone",6,16
+"Farm G","Dry","Mow","MCPB",20,1
+"Farm G","Dry","Mow","Aminopyralid+triclopyr",0.1,13
+"Farm G","Dry","Mow","MCPB",6,1
+"Farm G","Dry","No Mow","MCPA",20,0
+"Farm G","Dry","No Mow","MCPB",40,0
+"Farm G","Dry","No Mow","MCPB+bentazone",35,0
+"Farm G","Dry","No Mow","Aminopyralid+triclopyr",0.1,0
+"Farm G","Dry","No Mow","Thifensulfuron-methyl",1,0
+"Farm G","Dry","No Mow","Flumetsulam",1.25,0
+"Farm G","Dry","No Mow","MCPB+bentazone",13.5,0
+"Farm G","Dry","No Mow","Flumetsulam",0.575,1
+"Farm G","Dry","No Mow","MCPA",7,0
+"Farm G","Dry","No Mow","Nil",40,0
+"Farm G","Dry","No Mow","MCPA",9,0
+"Farm G","Dry","No Mow","Aminopyralid",0.35,0
+"Farm G","Dry","No Mow","MCPB",9,0
+"Farm G","Dry","No Mow","Thifensulfuron-methyl",1.125,0
+"Farm G","Dry","No Mow","Aminopyralid+triclopyr",0.025,5
+"Farm G","Dry","No Mow","Flumetsulam",0.2,1
+"Farm G","Dry","No Mow","Aminopyralid",0.45,0
+"Farm G","Dry","No Mow","Nil",10,0
+"Farm G","Dry","No Mow","Thifensulfuron-methyl",1.875,0
+"Farm G","Dry","No Mow","MCPB",5.75,2
+"Farm G","Dry","No Mow","MCPB+bentazone",2.25,0
+"Farm G","Dry","No Mow","Nil",7,0
+"Farm G","Dry","No Mow","Aminopyralid+triclopyr",0,2
+"Farm G","Dry","No Mow","Aminopyralid",0.15,3
+"Farm F","Wet","Mow","Aminopyralid+triclopyr",0,35
+"Farm F","Wet","Mow","Nil",4,11
+"Farm F","Wet","Mow","Aminopyralid",0,30
+"Farm F","Wet","Mow","MCPB+bentazone",1.5,20
+"Farm F","Wet","Mow","Aminopyralid",0,23
+"Farm F","Wet","Mow","MCPB",3.25,8
+"Farm F","Wet","Mow","MCPB",4,13
+"Farm F","Wet","Mow","Flumetsulam",1.75,8
+"Farm F","Wet","Mow","MCPB+bentazone",4.25,9
+"Farm F","Wet","Mow","Aminopyralid",0,10
+"Farm F","Wet","Mow","Thifensulfuron-methyl",4.5,15
+"Farm F","Wet","Mow","MCPA",4,18
+"Farm F","Wet","Mow","Thifensulfuron-methyl",5.25,13
+"Farm F","Wet","Mow","Nil",6.5,13
+"Farm F","Wet","Mow","MCPB",4.25,23
+"Farm F","Wet","Mow","Flumetsulam",2.5,9
+"Farm F","Wet","Mow","Aminopyralid+triclopyr",0,40
+"Farm F","Wet","Mow","Aminopyralid+triclopyr",0,6
+"Farm F","Wet","Mow","MCPA",1,13
+"Farm F","Wet","Mow","Thifensulfuron-methyl",4,21
+"Farm F","Wet","Mow","Flumetsulam",1.5,13
+"Farm F","Wet","Mow","Nil",11,7
+"Farm F","Wet","Mow","MCPB+bentazone",1.5,25
+"Farm F","Wet","Mow","MCPA",1,18
+"Farm F","Wet","No Mow","Flumetsulam",1.225,18
+"Farm F","Wet","No Mow","MCPB",2.25,30
+"Farm F","Wet","No Mow","Aminopyralid+triclopyr",0,28
+"Farm F","Wet","No Mow","MCPB+bentazone",1,20
+"Farm F","Wet","No Mow","MCPA",2.25,8
+"Farm F","Wet","No Mow","MCPA",0.625,6
+"Farm F","Wet","No Mow","MCPB+bentazone",2.875,13
+"Farm F","Wet","No Mow","Aminopyralid+triclopyr",0,23
+"Farm F","Wet","No Mow","Flumetsulam",1.5,13
+"Farm F","Wet","No Mow","Thifensulfuron-methyl",0.15,28
+"Farm F","Wet","No Mow","Nil",9,3
+"Farm F","Wet","No Mow","Aminopyralid",0.075,11
+"Farm F","Wet","No Mow","Flumetsulam",0.75,13
+"Farm F","Wet","No Mow","MCPB+bentazone",3.25,12
+"Farm F","Wet","No Mow","Aminopyralid",0.225,20
+"Farm F","Wet","No Mow","MCPB",6.5,10
+"Farm F","Wet","No Mow","Nil",15,3
+"Farm F","Wet","No Mow","Thifensulfuron-methyl",8.5,13
+"Farm F","Wet","No Mow","MCPB",5.5,8
+"Farm F","Wet","No Mow","MCPA",3.75,6
+"Farm F","Wet","No Mow","Thifensulfuron-methyl",4,10
+"Farm F","Wet","No Mow","Nil",10.5,8
+"Farm F","Wet","No Mow","Aminopyralid",0.06,6
+"Farm F","Wet","No Mow","Aminopyralid+triclopyr",0.025,5
+"Farm F","Dry","Mow","Flumetsulam",0,120
+"Farm F","Dry","Mow","Aminopyralid+triclopyr",0,105
+"Farm F","Dry","Mow","MCPA",0.15,135
+"Farm F","Dry","Mow","Flumetsulam",0,100
+"Farm F","Dry","Mow","Nil",2,240
+"Farm F","Dry","Mow","Thifensulfuron-methyl",0.125,35
+"Farm F","Dry","Mow","MCPA",0.9,90
+"Farm F","Dry","Mow","MCPA",0.2,65
+"Farm F","Dry","Mow","Aminopyralid",0,120
+"Farm F","Dry","Mow","MCPB",1,120
+"Farm F","Dry","Mow","Thifensulfuron-methyl",0.1,115
+"Farm F","Dry","Mow","Aminopyralid",0,95
+"Farm F","Dry","Mow","Thifensulfuron-methyl",0.1,105
+"Farm F","Dry","Mow","Flumetsulam",0.1,75
+"Farm F","Dry","Mow","MCPB",0.85,150
+"Farm F","Dry","Mow","Nil",1,145
+"Farm F","Dry","Mow","Aminopyralid",0.2,160
+"Farm F","Dry","Mow","Aminopyralid+triclopyr",0,75
+"Farm F","Dry","Mow","Aminopyralid+triclopyr",0,70
+"Farm F","Dry","Mow","MCPB+bentazone",0.6,80
+"Farm F","Dry","Mow","MCPB+bentazone",0.35,80
+"Farm F","Dry","Mow","MCPB",0.1,75
+"Farm F","Dry","Mow","Nil",1,75
+"Farm F","Dry","Mow","MCPB+bentazone",1,73
+"Farm F","Dry","No Mow","MCPB",1,25
+"Farm F","Dry","No Mow","Nil",8,35
+"Farm F","Dry","No Mow","MCPB+bentazone",0.375,15
+"Farm F","Dry","No Mow","Aminopyralid+triclopyr",0,25
+"Farm F","Dry","No Mow","Thifensulfuron-methyl",0,30
+"Farm F","Dry","No Mow","Aminopyralid",0,8
+"Farm F","Dry","No Mow","Aminopyralid+triclopyr",0,40
+"Farm F","Dry","No Mow","Thifensulfuron-methyl",0,85
+"Farm F","Dry","No Mow","Flumetsulam",0,85
+"Farm F","Dry","No Mow","MCPB+bentazone",1.75,58
+"Farm F","Dry","No Mow","Aminopyralid",0,60
+"Farm F","Dry","No Mow","Thifensulfuron-methyl",0.075,125
+"Farm F","Dry","No Mow","MCPB",1.5,70
+"Farm F","Dry","No Mow","Flumetsulam",0,80
+"Farm F","Dry","No Mow","Aminopyralid",0,85
+"Farm F","Dry","No Mow","MCPB",0.175,38
+"Farm F","Dry","No Mow","Nil",1,90
+"Farm F","Dry","No Mow","Aminopyralid+triclopyr",0,125
+"Farm F","Dry","No Mow","Nil",4.5,35
+"Farm F","Dry","No Mow","MCPA",0.225,35
+"Farm F","Dry","No Mow","MCPA",1.25,110
+"Farm F","Dry","No Mow","Flumetsulam",0.35,95
+"Farm F","Dry","No Mow","MCPA",0,60
+"Farm F","Dry","No Mow","MCPB+bentazone",0,35

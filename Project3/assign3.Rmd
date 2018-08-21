@@ -1,0 +1,158 @@
+---
+output:
+  word_document: default
+  html_document: default
+---
+```{r}
+library(faraway)
+library(lme4)
+library(GGally)
+#(1)load the data
+buttercup2<-read.csv('Buttercup Data.csv',header = TRUE)
+summary(buttercup2)
+na_row<-is.na(buttercup2$Buttercuppc)
+buttercup2<-buttercup2[-(385:432),]
+dim(buttercup2)
+head(buttercup2)
+#ggpairs(buttercup2)
+
+```
+
+```{r}
+library(ggplot2)
+plot1 <- ggplot(buttercup2, aes(x=Buttercuppc,y=Herbicide)) + geom_point()
+plot1 <- plot1 + theme_bw()
+plot1
+plot(density(buttercup2$Buttercuppc[buttercup2$Mow=='Mow']),col='red',main = '',xlab='Buttercuppc')
+lines(density(buttercup2$Buttercuppc[buttercup2$Mow=='No Mow']),col='blue')
+legend('topright',lty = c(1,1),legend=c('Mow','No Mow'),col=c('red','blue'))
+plot3<-ggplot(data=buttercup2, aes(x=Herbicide,y=Buttercuppc, fill = Farm))+geom_boxplot(show.legend = FALSE)+theme(axis.text.x = element_text(angle=30, hjust=1, vjust=1))
+plot3
+plot4<-ggplot(data=buttercup2, aes(x=interaction(Herbicide, Mow),y=Buttercuppc, fill = interaction(Herbicide, Mow)))+geom_boxplot(show.legend = FALSE)+theme(axis.text.x = element_text(angle=30, hjust=1, vjust=1))
+plot4
+plot5<-ggplot(data=buttercup2, aes(x=interaction(Farm, Paddock),y=Buttercuppc, fill = interaction(Farm, Paddock)))+geom_boxplot(show.legend = FALSE)+theme(axis.text.x = element_text(angle=30, hjust=1, vjust=1))
+plot5
+```
+
+```{r}
+plot6<-ggplot(buttercup2, aes(Buttercuppc,fill = cut(Buttercuppc,100))) + geom_histogram(bins = 7,show.legend = FALSE)
+plot6
+library(forecast)
+#BoxCox.lambda(buttercup2$Buttercuppc+0.01)#-0.14
+buttercup2$Buttercuppc<-(log(buttercup2$Buttercuppc+0.1))
+plot7<-ggplot(buttercup2, aes(Buttercuppc,fill = cut(Buttercuppc,100))) + geom_histogram(bins = 7,show.legend = FALSE)
+plot7
+inter_term<-interaction(buttercup2$Farm,buttercup2$Paddock)
+buttercup2<-cbind(buttercup2,inter_term)
+head(buttercup2)
+```
+
+
+```{r}
+aovov <- aov(Buttercuppc ~ Herbicide * Mow + inter_term, data = buttercup2)
+summary(aovov)
+coef(aovov)
+qqnorm(resid(aovov), main = "Residual Plot")
+shapiro.test(aovov$residuals)
+```
+
+
+```{r}
+m1.lme4 = lmer(Buttercuppc ~ Mow*Herbicide + (1|inter_term), data = buttercup2)
+print(summary(m1.lme4),correlation = FALSE)
+ranef(m1.lme4)$inter_term
+fixef(m1.lme4)
+AIC(m1.lme4)
+
+```
+```{r}
+residual=resid(m1.lme4) 
+n=length(residual)
+ssr=0
+for(i in 1:n)
+{
+  ssr=ssr+(residual[i]^2)
+}
+ssr#741.05
+
+```
+
+
+```{r}
+
+AIC(m1.lme4)
+m2.lme4 <- lmer(Buttercuppc ~ Mow + (1|inter_term), data = buttercup2)
+AIC(m2.lme4)
+m3.lme4 = lmer(Buttercuppc ~ Herbicide + (1|inter_term), data = buttercup2)
+AIC(m3.lme4)
+m4.lme4 = lmer(Buttercuppc ~ Mow + Herbicide + (1|inter_term), data = buttercup2)
+AIC(m4.lme4)
+```
+
+```{r}
+qqnorm(resid(m1.lme4))
+plot(fitted(m1.lme4), resid(m1.lme4), xlab='fitted', ylab='residuals')
+abline(0, 0)
+```
+
+
+```{r}
+library(faraway)
+library(lme4)
+library(GGally)
+library(ggplot2)
+buttercup<-read.csv('Buttercup Data.csv',header = TRUE)
+buttercup<-buttercup[-(385:432),]
+plot1_1 <- ggplot(buttercup, aes(x=BareGrnd,y=Herbicide)) + geom_point()
+plot1_1 <- plot1_1 + theme_bw()
+plot1_1
+plot(density(buttercup$BareGrnd[buttercup$Mow=='No Mow']),col='blue',main = '', xlab='BareGrnd')
+lines(density(buttercup$BareGrnd[buttercup$Mow=='Mow']),col='red')
+legend('topright',lty = c(1,1),legend=c('Mow','No Mow'),col=c('red','blue'))
+plot4_4<-ggplot(data=buttercup, aes(x=interaction(Herbicide, Mow),y=BareGrnd, fill = interaction(Herbicide, Mow)))+geom_boxplot(show.legend = FALSE)+theme(axis.text.x = element_text(angle=30, hjust=1, vjust=1))
+plot4_4
+plot5_5<-ggplot(data=buttercup, aes(x=interaction(Farm, Paddock),y=BareGrnd, fill = interaction(Farm, Paddock)))+geom_boxplot(show.legend = FALSE)+theme(axis.text.x = element_text(angle=30, hjust=1, vjust=1))
+plot5_5
+```
+
+
+
+```{r}
+inter_term2<-interaction(buttercup$Farm,buttercup$Paddock)
+buttercup<-cbind(buttercup,inter_term2)
+head(buttercup)
+ggplot(buttercup, aes(BareGrnd, fill = cut(BareGrnd,100))) + geom_histogram(bins = 20,show.legend = FALSE) 
+glm1<-glm(BareGrnd~Herbicide*Mow + inter_term2, data = buttercup, family = poisson())
+summary(glm1)
+anova(glm1,test='Chisq')
+```
+
+
+```{r}
+res<-resid(glm1)
+ggplot(buttercup, aes(res, fill = cut(res,100))) + geom_histogram(show.legend = FALSE) 
+```
+```{r}
+library(lattice)
+xyplot(buttercup$BareGrnd~buttercup$Farm|buttercup$Paddock)
+```
+
+```{r}
+glmm1 = glmer(BareGrnd ~ Mow*Herbicide + (1|inter_term2), data = buttercup,family=poisson)
+summary(glmm1)
+```
+
+
+```{r}
+anova(glmm1,glm1, test = 'Chisq')
+AIC(glm1)
+AIC(glmm1)
+```
+```{r}
+qqnorm(resid(glmm1))
+hist(resid(glmm1))
+fit2<-fitted(glm1,type='response')
+plot(fit2,resid(glmm1))
+abline(0,0)
+```
+

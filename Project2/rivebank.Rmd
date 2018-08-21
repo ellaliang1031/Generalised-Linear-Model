@@ -1,0 +1,197 @@
+---
+output:
+  word_document: default
+  html_document: default
+---
+```{r}
+riverdata<-read.table('D:/2018 first semester/linear regression/ASSIGNMENT2/RiverBank.txt',header = TRUE)
+names(riverdata)
+```
+```{r}
+dim(riverdata)
+summary(riverdata)
+head(riverdata)
+hist(riverdata$dredging)
+```
+
+```{r}
+failure_1<-riverdata$failure
+riverdata$failure<-factor(failure_1,levels = c(0,1),labels = c('not failed','failed'))
+table(riverdata$failure)
+sediment_1<-riverdata$sediment
+riverdata$sediment<-factor(sediment_1,levels = c(0,1),labels = c('not fill','fill'))
+meander_1<-riverdata$meander
+riverdata$meander<-factor(meander_1,levels = c(1,2,3,4),labels = c('Inside bend','outside bend','chute','straight'))
+landcover_1<-riverdata$landcover
+riverdata$landcover<-factor(landcover_1,levels = c(1,2,3,4),labels = c('open water','grassy','agriculture','forest'))
+boxplot(riverdata$channelwidth~riverdata$failure,xlab = 'failure',ylab='channel width')
+plot(density(riverdata$channelwidth[riverdata$failure=='not failed']),col='red',main='distribution of channelwidth',xlab='channelwidth')
+lines(density(riverdata$channelwidth[riverdata$failure=='failed']),col='blue')
+legend('topright',lty = c(1,1),legend=c('not failed','failed'),col=c('red','blue'))
+boxplot(riverdata$vegewidth~riverdata$failure,xlab = 'failure',ylab='vegewidth')
+plot(density(riverdata$vegewidth[riverdata$failure=='not failed']),col='red',main='distribution of vegewidth',ylim=c(0,0.001),xlab='vegewidth')
+lines(density(riverdata$vegewidth[riverdata$failure=='failed']),col='blue')
+legend('topright',lty = c(1,1),legend=c('not failed','failed'),col=c('red','blue'))
+boxplot(riverdata$sinuosity~riverdata$failure,xlab = 'failure',ylab='sinuosity')
+plot(density(riverdata$sinuosity[riverdata$failure=='not failed']),col='red',main='distribution of sinuosity',xlab='sinuosity')
+lines(density(riverdata$sinuosity[riverdata$failure=='failed']),col='blue')
+legend('topright',lty = c(1,1),legend=c('not failed','failed'),col=c('red','blue'))
+riverdata$dredging[ (riverdata$dredging <= 2*10^5)] <- '0'
+riverdata$dredging[ (riverdata$dredging >= 4*10^5 ) ] <- '1'
+library(ggplot2)
+ggplot(riverdata,aes(landcover))+geom_bar(stat ='count')
+ggplot(riverdata,aes(meander))+geom_bar(stat='count')
+riverdata$dredging <- factor(riverdata$dredging,levels=c(0,1),labels=c('none or some dredging','a lot of dredging'))
+barplot(table(riverdata$failure,riverdata$sediment),xlab = 'sediment')
+barplot(table(riverdata$failure,riverdata$dredging),xlab = 'dredging')
+text.legend=c('failed','not failed')
+legend('topright',pch = c(15,15),legend=text.legend,col=c('grey','black'),cex=0.8)
+barplot(table(riverdata$failure,riverdata$meander),xlab = 'meander')
+table(riverdata$failure,riverdata$meander)
+barplot(table(riverdata$failure,riverdata$landcover),xlab = 'landcover')
+text.legend=c('failed','not failed')
+legend('topleft',pch = c(15,15),legend=text.legend,col=c('grey','black'),cex=0.8)
+landcover_1[which(landcover_1==2)]=3
+riverdata$landcover<-factor(landcover_1,levels = c(1,3,4),labels = c('open water','grassy/agriculture','forest'))
+barplot(table(riverdata$failure,riverdata$landcover),xlab = 'landcover')
+text.legend=c('failed','not failed')
+legend('topleft',pch = c(15,15),legend=text.legend,col=c('grey','black'),cex=0.8)
+
+summary(riverdata)
+
+```
+```{r}
+which(riverdata$landcover=='open water')
+#16 36 38 39 40
+riverdata = riverdata[-40,]
+riverdata = riverdata[-39,]
+riverdata = riverdata[-38,]
+riverdata = riverdata[-36,]
+riverdata = riverdata[-16,]
+which(riverdata$landcover=='open water')
+
+```
+
+```{r}
+failure_1<-riverdata$failure
+riverdata$failure<-factor(failure_1,levels = c(0,1),labels = c('not failed','failed'))
+table(riverdata$failure)
+sediment_1<-riverdata$sediment
+riverdata$sediment<-factor(sediment_1,levels = c(0,1),labels = c('not fill','fill'))
+meander_1<-riverdata$meander
+riverdata$meander<-factor(meander_1,levels = c(1,2,3,4),labels = c('Inside bend','outside bend','chute','straight'))
+landcover_1<-riverdata$landcover
+riverdata$landcover<-factor(landcover_1,levels = c(2,3,4),labels = c('grassy','agriculture','forest'))
+boxplot(riverdata$channelwidth~riverdata$failure,xlab = 'failure',ylab='channel width')
+plot(density(riverdata$channelwidth[riverdata$failure=='not failed']),col='red',main='distribution of channelwidth',xlab='channelwidth')
+lines(density(riverdata$channelwidth[riverdata$failure=='failed']),col='blue')
+legend('topright',lty = c(1,1),legend=c('not failed','failed'),col=c('red','blue'))
+boxplot(riverdata$vegewidth~riverdata$failure,xlab = 'failure',ylab='vegewidth')
+plot(density(riverdata$vegewidth[riverdata$failure=='not failed']),col='red',main='distribution of vegewidth',ylim=c(0,0.001),xlab='vegewidth')
+lines(density(riverdata$vegewidth[riverdata$failure=='failed']),col='blue')
+legend('topright',lty = c(1,1),legend=c('not failed','failed'),col=c('red','blue'))
+boxplot(riverdata$sinuosity~riverdata$failure,xlab = 'failure',ylab='sinuosity')
+plot(density(riverdata$sinuosity[riverdata$failure=='not failed']),col='red',main='distribution of sinuosity',xlab='sinuosity')
+lines(density(riverdata$sinuosity[riverdata$failure=='failed']),col='blue')
+legend('topright',lty = c(1,1),legend=c('not failed','failed'),col=c('red','blue'))
+riverdata$dredging[ (riverdata$dredging <= 2*10^5)] <- '0'
+riverdata$dredging[ (riverdata$dredging >= 4*10^5 ) ] <- '1'
+library(ggplot2)
+ggplot(riverdata,aes(landcover))+geom_bar(stat ='count')
+ggplot(riverdata,aes(meander))+geom_bar(stat='count')
+riverdata$dredging <- factor(riverdata$dredging,levels=c(0,1),labels=c('none or some dredging','a lot of dredging'))
+barplot(table(riverdata$failure,riverdata$sediment),xlab = 'sediment')
+barplot(table(riverdata$failure,riverdata$dredging),xlab = 'dredging')
+text.legend=c('failed','not failed')
+legend('topright',pch = c(15,15),legend=text.legend,col=c('grey','black'),cex=0.8)
+barplot(table(riverdata$failure,riverdata$meander),xlab = 'meander')
+table(riverdata$failure,riverdata$meander)
+barplot(table(riverdata$failure,riverdata$landcover),xlab = 'landcover')
+text.legend=c('failed','not failed')
+legend('topleft',pch = c(15,15),legend=text.legend,col=c('grey','black'),cex=0.8)
+landcover_1[which(landcover_1==2)]=3
+riverdata$landcover<-factor(landcover_1,levels = c(3,4),labels = c('grassy/agriculture','forest'))
+barplot(table(riverdata$failure,riverdata$landcover),xlab = 'landcover')
+text.legend=c('failed','not failed')
+legend('topleft',pch = c(15,15),legend=text.legend,col=c('grey','black'),cex=0.8)
+```
+
+
+```{r}
+model1<-glm(riverdata$failure~riverdata$sediment+riverdata$meander+riverdata$channelwidth+riverdata$landcover+riverdata$vegewidth+riverdata$sinuosity+riverdata$dredging, family = binomial())
+summary(model1)
+```
+```{r}
+model2<-step(model1)
+summary(model2)
+anova(model2,test='Chisq')
+```
+```{r}
+model2.1<-update(model2,~.-riverdata$dredging)
+summary(model2.1)
+anova(model2.1,test='Chisq')
+anova(model2.1,model2,test='Chisq')
+```
+
+
+```{r}
+full_model<-glm(riverdata$failure~(riverdata$meander + riverdata$sinuosity + 
+    riverdata$landcover)^2, family = binomial())
+model3.1<-step(full_model, direction = 'backward')
+summary(model3.1)
+anova(model3.1,test='Chisq')
+```
+```{r}
+anova(model2.1,model3.1,test = 'Chisq')
+```
+
+```{r}
+plot(predict(model2.1,type = 'response'),residuals(model2.1,type = 'deviance'), ylab='Residual of Model 2.1 and Model3.1')
+points(predict(model3.1,type = 'response'),residuals(model3.1,type = 'deviance'),col='red')
+plot(rstudent(model2.1))
+points(rstudent(model3.1),col='red')
+```
+
+
+```{r}
+model3.1_od<-glm(riverdata$failure~riverdata$meander*riverdata$sinuosity,family = quasibinomial())
+pchisq(summary(model3.1_od)$dispersion*model3.1$df.residual,model3.1$df.residual,lower=F)
+```
+
+```{r}
+pre2.1=predict(model2.1, type='response')
+pre3.1=predict(model3.1, type='response')
+library(ROCR)
+library(gplots)
+pred2.1=prediction(pre2.1,riverdata$failure)
+performance(pred2.1,'auc')@y.values
+perf2.1=performance(pred2.1,'tpr','fpr')
+plot(perf2.1)
+pred3.1=prediction(pre3.1,riverdata$failure)
+performance(pred3.1,'auc')@y.values
+perf3.1=performance(pred3.1,'tpr','fpr')
+plot(perf3.1)
+
+```
+```{r}
+library(pROC)
+modelroc=roc(riverdata$failure,pre2.1)
+plot(modelroc,print.auc=TRUE,auc.polygon=TRUE,grid=c(0.1,0.2),grid.col=c("green","red"),max.auc.polygon=TRUE,auc.polygon.col="blue")
+modelroc=roc(riverdata$failure,pre3.1)
+plot(modelroc,print.auc=TRUE,auc.polygon=TRUE,grid=c(0.1,0.2),grid.col=c("green","red"),max.auc.polygon=TRUE,auc.polygon.col="blue")
+```
+```{r}
+modelpred2.1=rep('failed', 77)
+modelpred2.1[pre2.1<0.5]='not failed'
+table(modelpred2.1,riverdata$failure)
+mean(modelpred2.1==riverdata$failure)
+```
+
+```{r}
+modelpred3.1=rep('failed', 77)
+modelpred3.1[pre3.1<0.5]='not failed'
+table(modelpred3.1,riverdata$failure)
+mean(modelpred3.1==riverdata$failure)
+
+```
+
